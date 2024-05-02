@@ -47,27 +47,38 @@ This section showcases the projects or works completed by the portfolio owner.
 - Tailwind CSS: Utility-first CSS framework for styling.
 - EmailJS: Service for sending emails directly from client-side JavaScript.
 
-## Getting Started
+## 💻 Getting Started
 
 To run the project locally, follow these steps:
 
-1. Clone the repository:
+#### 01. Clone the repository:
 
-git clone <repository-url>
+```npm
+git clone https://github.com/Talhakhan-Developer/portfolio.git
+```
 
-2. Navigate to the project directory:
+#### 02 Navigate to the project directory:
 
+```
 cd portfolio
+```
 
-3. Install dependencies:
+#### 03. Install dependencies:
 
+```npm
 npm install
+```
 
-4. Start the development server:
+#### 04. Start the development server:
 
+```npm
 npm run dev
+```
 
-5. Open your web browser and navigate to `http://localhost:5173` to view the website.
+#### 05. Open your web browser and navigate to:
+```
+http://localhost:5173
+```
 
 ## Contributing
 
