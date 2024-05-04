@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import react from "react";
-import python from "../assets/python.png";
-import javascript from "../assets/javascript.png";
-import reactCourse from "../assets/React-Basic.png";
-import spark from "../assets/The-Spark-Foundation.png";
-import version from "../assets/Version-control.png";
-import letsupgrade from "../assets/letsupgrade.png";
+import python from "../assets/python.webp";
+import javascript from "../assets/javascript.webp";
+import reactCourse from "../assets/React-Basic.webp";
+import spark from "../assets/The-Spark-Foundation.webp";
+import version from "../assets/Version-control.webp";
+import letsupgrade from "../assets/letsupgrade.webp";
 import { useDarkMode } from "./DarkModeContex";
 
 function Certificates() {

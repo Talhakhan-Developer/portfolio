@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import react, { useState } from "react";
 import { useDarkMode } from "./DarkModeContex";
-import logo from "../assets/Site logo.jpg";
 import { FaMoon } from "react-icons/fa";
 import { FiSun } from "react-icons/fi";
 import { CiUser } from "react-icons/ci";
@@ -33,12 +32,17 @@ function Heading({ setSelectedItem }) {
           <div className="flex items-center">
             <div className="w-1/2">
               <div className="header-logo">
-                <a className="outline-none no-underline" href="/">
-                  <img
-                    className="align-middle w-[153px] h-8"
-                    src={logo}
-                    alt="Logo Image"
-                  />
+                <a
+                  className="outline-none no-underline"
+                  href="https://Talhakhan-Developer.github.io/portfolio/"
+                >
+                  <p
+                    className={`align-middle font-sans text-3xl font-medium tracking-[5px] ${
+                      isDarkMode ? "text-white " : "text-black "
+                    }`}
+                  >
+                    Talha Khan.
+                  </p>
                 </a>
               </div>
             </div>

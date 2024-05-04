@@ -16,10 +16,6 @@ export default {
       // => @media (min-width: 1280px) { ... }
     },
     extend: {
-      backgroundImage: {
-        "main-img": "url('./src/assets/Bg-image.jpg')",
-        "dark-img": "url('./src/assets/bg-dark-image.jpg')",
-      },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },

@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import react from "react";
-import project1 from "../assets/desktop-design.jpg";
-import project2 from "../assets/Amazing-car-company.png";
-import project3 from "../assets/Shawlser.png";
-import project4 from "../assets/Superheroes.png";
-import project5 from "../assets/mobile-design.jpg";
-import project6 from "../assets/Music-player.png";
+import project1 from "../assets/desktop-design.webp";
+import project2 from "../assets/Amazing-car-company.webp";
+import project3 from "../assets/Shawlser.webp";
+import project4 from "../assets/Superheroes.webp";
+import project5 from "../assets/mobile-design.webp";
+import project6 from "../assets/Music-player.webp";
 import { useDarkMode } from "./DarkModeContex";
 
 function Works() {

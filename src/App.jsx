@@ -2,8 +2,8 @@ import "./App.css";
 // eslint-disable-next-line no-unused-vars
 import react, { useState } from "react";
 import { useDarkMode } from "./components/DarkModeContex";
-import darkImage from "../src/assets/bg-dark-image.jpg";
-import lightImage from "../src/assets/Bg-image.jpg";
+import darkImage from "../src/assets/bg-dark-image.webp";
+import lightImage from "../src/assets/Bg-image.webp";
 import Heading from "./components/Heading";
 import Profile from "./components/Profile";
 import Navbar from "./components/Navbar";

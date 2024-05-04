@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import react from "react";
-import img from "../assets/profile.jpg";
+import img from "../assets/profile.webp";
 import cv from "../assets/CV.pdf";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -26,7 +26,7 @@ function Profile() {
         <div className="img-area w-[240px] h-[240px] rounded-[20px] overflow-hidden laptop:mt-[-100px] mb-[21px] mx-auto">
           <img
             src={img}
-            className="w-full h-full object-cover duration-300 rounded-[20px]"
+            className="w-full h-full object-cover rounded-[20px]"
             alt="Profile Image"
           />
         </div>
@@ -108,7 +108,7 @@ function Profile() {
             <div
               className={`Icon flex items-center justify-center text-[#e93b81] text-[25px] w-[44px] h-[44px]   ${
                 isDarkMode ? "bg-black " : "bg-white "
-              } rounded-md text-center shadow-md duration-300`}
+              } rounded-md text-center shadow-md `}
             >
               <IoPhonePortraitOutline />
             </div>
@@ -134,7 +134,7 @@ function Profile() {
             <div
               className={` Icon flex items-center justify-center text-[#6ab5b9] ${
                 isDarkMode ? "bg-black " : "bg-white "
-              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md duration-300`}
+              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md `}
             >
               <CiMail />
             </div>
@@ -159,7 +159,7 @@ function Profile() {
             <div
               className={` Icon flex items-center justify-center text-[#fd7590] ${
                 isDarkMode ? "bg-black " : "bg-white "
-              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md duration-300`}
+              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md `}
             >
               <FaLocationDot />
             </div>
@@ -184,7 +184,7 @@ function Profile() {
             <div
               className={` Icon flex items-center justify-center text-[#c17ceb] ${
                 isDarkMode ? "bg-black " : "bg-white "
-              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md duration-300`}
+              } text-[25px] w-[44px] h-[44px]   rounded-md text-center shadow-md `}
             >
               <SlCalender />
             </div>
